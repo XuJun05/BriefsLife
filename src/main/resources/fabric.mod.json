@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "briefslife",
+  "version": "${version}",
+  "name": "BriefsLife",
+  "description": "TEST",
+  "authors": [],
+  "contact": {
+    "homepage": "https://www.planetminecraft.com/mod/briefslife/",
+    "sources": "",
+    "issues": ""
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/briefslife/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "gay.xujun.client.BriefslifeClient"
+    ],
+    "main": [
+      "gay.xujun.Briefslife"
+    ]
+  },
+  "mixins": [
+    "briefslife.mixins.json",
+    {
+      "config": "briefslife.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
