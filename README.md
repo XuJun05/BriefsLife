@@ -1,6 +1,6 @@
 # BriefsLife
 
-A Minecraft Mod for 1.21.1 (Fabric)
+A Minecraft Mod for 1.21.8 (Fabric)
 
 ## Features
 
