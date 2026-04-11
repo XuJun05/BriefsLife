@@ -8,6 +8,7 @@ I'm so embarrassed I could die going commando!
 
     Briefs
     Boxer
+    JockStrap
     Fundoshi
 
 ## Supported Languages
